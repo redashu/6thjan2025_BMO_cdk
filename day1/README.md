@@ -29,3 +29,8 @@
 ### code 
 
 <img src="ts4.png">
+
+### Creating first CDK project 
+
+<img src="proj1.png">
+
