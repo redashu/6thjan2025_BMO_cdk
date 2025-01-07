@@ -19,3 +19,7 @@
 <img src="cdkd2.png">
 
 
+### commands for dealing with multiple stacks 
+
+<img src="multi1.png">
+
