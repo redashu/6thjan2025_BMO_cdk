@@ -23,3 +23,8 @@
 
 <img src="multi1.png">
 
+### Clone git repo to cdk machine 
+
+<img src="clone.png">
+
+
