@@ -38,3 +38,7 @@
 
 <img src="const1.png">
 
+### CDk -- init -- > Synth -- > Deploy
+
+<img src="dep1.png">
+
