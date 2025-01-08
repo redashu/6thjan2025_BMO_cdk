@@ -27,4 +27,8 @@
 
 <img src="clone.png">
 
+### pushing local code to github remote repo 
+
+<img src="repopush.png">
+
 
