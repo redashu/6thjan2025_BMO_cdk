@@ -18,3 +18,11 @@
 
 <img src="out1.png">
 
+### copy code to git repo and push it
+
+<img src="gp.png">
+
+### creating github workflow directory structure 
+
+<img src="work1.png">
+
