@@ -6,3 +6,11 @@
 
 <img src="clean.png">
 
+### bin directory code snap 
+
+<img src="bin1.png">
+
+### ec2 lib code 
+
+<img src="ec21.png">
+
