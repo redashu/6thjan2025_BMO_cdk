@@ -14,3 +14,7 @@
 
 <img src="ec21.png">
 
+### adding and understanding CfnOutput constructor in cdk 
+
+<img src="out1.png">
+
