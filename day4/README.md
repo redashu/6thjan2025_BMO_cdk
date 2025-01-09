@@ -8,3 +8,7 @@
 
 <img src="ai.png">
 
+### CDK app -- stack - constrcut 
+
+<img src="app1.png">
+
