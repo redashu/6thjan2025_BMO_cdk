@@ -25,3 +25,12 @@
 
 <img src="dest1.png">
 
+### aws lambda -- serverless code run service (PAAS) 
+
+<img src="lambda.png">
+
+### creating new cdk project 
+
+<img src="cdklam.png">
+
+
