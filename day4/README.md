@@ -12,3 +12,12 @@
 
 <img src="app1.png">
 
+
+### generating security group code with copilot 
+
+<img src="sec1.png">
+
+### deploying multi stack project 
+
+<img src="multi1.png">
+
