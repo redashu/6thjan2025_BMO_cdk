@@ -21,3 +21,7 @@
 
 <img src="multi1.png">
 
+### creating multi bucket and doing destroy 
+
+<img src="dest1.png">
+
