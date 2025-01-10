@@ -1,0 +1,73 @@
+humanfirmware@darwin  ~  mkdir /tmp/runner
+ humanfirmware@darwin  ~  cd /tmp/runner 
+
+ humanfirmware@darwin  /tmp/runner  curl -o actions-runner-osx-x64-2.321.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.321.0/actions-runner-osx-x64-2.321.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 74.7M  100 74.7M    0     0  3486k      0  0:00:21  0:00:21 --:--:-- 3391k
+
+ humanfirmware@darwin  /tmp/runner  tar xzf ./actions-runner-osx-x64-2.321.0.tar.gz
+
+ humanfirmware@darwin  /tmp/runner  ls
+actions-runner-osx-x64-2.321.0.tar.gz run-helper.cmd.template
+bin                                   run-helper.sh.template
+config.sh                             run.sh
+env.sh                                safe_sleep.sh
+externals
+
+ humanfirmware@darwin  /tmp/runner  ./config.sh --url https://github.com/redashu/ashucdk-codes --token ACBIDUUZLFN4QAGFCINZOXDHQFBHO
+
+--------------------------------------------------------------------------------
+|        ____ _ _   _   _       _          _        _   _                      |
+|       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+|      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+|      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+|       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+|                                                                              |
+|                       Self-hosted runner registration                        |
+|                                                                              |
+--------------------------------------------------------------------------------
+
+# Authentication
+
+
+√ Connected to GitHub
+
+# Runner Registration
+
+Enter the name of the runner group to add this runner to: [press Enter for Default] 
+
+Enter the name of runner: [press Enter for darwin] 
+
+This runner will have the following labels: 'self-hosted', 'macOS', 'X64' 
+Enter any additional labels (ex. label-1,label-2): [press Enter to skip] ashu-mac,ashu-local
+
+√ Runner successfully added
+√ Runner connection is good
+
+# Runner settings
+
+Enter name of work folder: [press Enter for _work] 
+
+√ Settings Saved.
+
+ humanfirmware@darwin  /tmp/runner  ./run.sh
+
+√ Connected to GitHub
+
+Current runner version: '2.321.0'
+2025-01-10 14:55:45Z: Listening for Jobs
+^CExiting...
+Runner listener exit with 0 return code, stop the service, no retry needed.
+Exiting runner...
+ humanfirmware@darwin  /tmp/runner  ./run.sh
+
+√ Connected to GitHub
+
+Current runner version: '2.321.0'
+2025-01-10 14:57:17Z: Listening for Jobs
+^CExiting...
+Runner listener exit with 0 return code, stop the service, no retry needed.
+Exiting runner...
+ humanfirmware@darwin  /tmp/runner  
