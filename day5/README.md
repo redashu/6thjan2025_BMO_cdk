@@ -6,3 +6,7 @@
 
 <img src="cdk1.png">
 
+### Project for code updates with lambda - > cloudwatch -- >s3 >dynamodb
+
+<img src="proj1.png">
+
